@@ -2,8 +2,8 @@
 .small-para {
   color: hsl(0, 100%, 50%);
 }
-
-.small-para {
+/* I choosed to chain small-para with para insted of p */
+.para.small-para {
   font-size: 12px;
 }
 
@@ -17,19 +17,19 @@
   font-size: 20px;
   font-weight: bold;
 } 
-
-.button {
+/* I choosed to specified cancel-button selector insted of  of changing it's position or specifing confirm-button more explicitly*/
+.button#cancel-button{
   background-color: #ffc0cb;
   color: black;
   font-size: 20px;
 }
-
-.child {
+/* I choosed to keep everthing in same position for better log keeping and thus went with second solution mentioned */
+.text .child {
   color: red;
   font-size: 14px;
 }
-
-div.text {
+/* Even though there was no need to do this, but I thought since it says that it's not related to other divs so I ended up specifing it separatly with a comma(,)   */
+.text,div.text {
   color: green;
   font-size: 28px;
 }
