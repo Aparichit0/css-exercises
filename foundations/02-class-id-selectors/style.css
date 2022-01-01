@@ -1,0 +1,16 @@
+.class {
+    background-color: #ffc0cb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#id2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.class.big,#id4{
+    font-size: 24px;
+}
+#id4{
+    font-weight: bold;
+    background-color: #90ee90;
+}
