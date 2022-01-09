@@ -44,7 +44,6 @@ a {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 16px;
 }
 /* I could have got away without specifying it separatly,
@@ -57,7 +56,6 @@ a {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 }
 
