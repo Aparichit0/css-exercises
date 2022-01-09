@@ -69,19 +69,15 @@ button.cancel {
   color: royalblue;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-
-.top{
-  display: flex;
-  justify-content: space-between;
-}
-
-.header{
+.header {
   font-size: large;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
