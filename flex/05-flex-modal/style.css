@@ -72,6 +72,12 @@ button.cancel {
 .container {
   display: flex;
   flex-direction: column;
+  /* although my impelimentation of looks a bit off
+  due to not understanding this readme section again...
+  .
+  I'm supposed to add visually matiching margins here
+  (according to solution.css) but I'll keep that here,
+  since I'm not breaking any rules(according to "self check" in readme) */
   gap: 16px;
 }
 
