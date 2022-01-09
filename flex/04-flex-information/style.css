@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -23,4 +24,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.flexbox{
+  display: flex;
+  /* Intially I removed align-items:center;
+  because 1st point of self-check section mentioned that
+  all item are centered horizontally, not vertically
+  (but they used it in solution.css anyways
+  & so in the end I added it back) */
+  align-items:center;
+  justify-content: center;
+  gap: 52px;
+}
+.flex-item{
+  /* I didn't understand self check properly again and used width: 200px; 
+  but I think solution.css makes more sense 
+  by adding max-width rather then plain width */
+  max-width: 200px;
+}
+.title{
+  margin-bottom: 32px;
 }
